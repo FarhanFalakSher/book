@@ -1,0 +1,27 @@
+@import "tailwindcss";
+/* =============== GLOBAL SCROLLBAR FIX =============== */
+
+/* hide horizontal scroll just in case */
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* HIDE SCROLLBAR (still scrolls with mouse / touch) */
+
+/* Chrome, Edge, Safari */
+body::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* Firefox */
+body {
+  scrollbar-width: none;
+}
+
+/* Optional – prevents scrollbar gap on right side */
+html {
+  overflow-y: overlay;
+}
