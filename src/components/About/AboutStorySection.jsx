@@ -6,7 +6,7 @@ const AboutStorySection = () => {
       id="about-story"
       className="w-full bg-gradient-to-b from-[#f9f3e9] via-[#f7f2ea] to-[#f9f4ec] text-slate-900"
     >
-      <div className="max-w-6xl mx-auto px-4 py-16 md:py-20">
+      <div className="max-w-6xl mx-auto px-4 py-10 md:py-20">
         <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] items-start">
           {/* LEFT: MAIN COPY */}
           <div className="space-y-6">

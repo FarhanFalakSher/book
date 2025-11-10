@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 const GetBookSection = () => {
   return (
@@ -18,14 +20,16 @@ const GetBookSection = () => {
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             {/* Primary button */}
             <button className="inline-flex items-center gap-2 px-8 py-3 rounded-full bg-[#f59e0b] text-white text-sm sm:text-base font-semibold shadow-[0_18px_40px_rgba(245,158,11,0.55)] hover:bg-[#ea8a05] transition-all">
-              <span className="text-base">📖</span>
+              <span className="text-base"></span>
               <span>Buy on Amazon</span>
             </button>
 
             {/* Secondary button */}
-            <button className="inline-flex items-center gap-2 px-8 py-3 rounded-full border border-[#f59e0b] text-[#f59e0b] text-sm sm:text-base font-semibold bg-transparent hover:bg-[#fff7ea] transition-all">
-              <span>Learn More</span>
-            </button>
+           <Link to="/">
+  <button className="inline-flex items-center gap-2 px-8 py-3 rounded-full border border-[#f59e0b] text-[#f59e0b] text-sm sm:text-base font-semibold bg-transparent hover:bg-[#fff7ea] transition-all">
+    <span>Learn More</span>
+  </button>
+</Link>
           </div>
         </div>
       </div>
@@ -57,13 +61,13 @@ const GetBookSection = () => {
                       className="w-full bg-transparent text-sm sm:text-base text-[#111827] placeholder:text-slate-400 focus:outline-none"
                     />
                     <span className="ml-2 text-lg" aria-hidden="true">
-                      🐶
+                      
                     </span>
                   </div>
                 </div>
 
                 <button className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3 rounded-full bg-[#f59e0b] text-white text-sm sm:text-base font-semibold shadow-[0_18px_40px_rgba(245,158,11,0.6)] hover:bg-[#ea8a05] transition-all">
-                  <span className="text-base">✉️</span>
+                  <span className="text-base"></span>
                   <span>Subscribe</span>
                 </button>
               </div>

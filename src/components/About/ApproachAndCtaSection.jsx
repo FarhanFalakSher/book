@@ -3,7 +3,7 @@ import React from "react";
 const ApproachAndCtaSection = () => {
   return (
     <section id="approach" className="w-full bg-[#fdf7ea] text-slate-900">
-      <div className="max-w-6xl mx-auto px-4 py-16 md:py-20 space-y-16">
+      <div className="max-w-6xl mx-auto  px-4 py-12 md:py-20 space-y-16">
         {/* APPROACH & METHODOLOGY */}
         <div className="space-y-10">
           {/* Heading */}

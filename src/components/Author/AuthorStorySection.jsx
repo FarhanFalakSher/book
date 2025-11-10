@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 const AuthorMeetSection = () => {
   return (
@@ -6,7 +8,7 @@ const AuthorMeetSection = () => {
       id="author-meet"
       className="w-full bg-gradient-to-b from-[#fdf7ee] via-[#fbf1e3] to-[#f7ebd2] text-slate-900"
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* LEFT: TEXT */}
           <div
@@ -14,9 +16,11 @@ const AuthorMeetSection = () => {
             data-aos="fade-right"
           >
             {/* Pill */}
-            <div className="inline-flex items-center rounded-full bg-gradient-to-r from-[#b88617] via-[#c8941f] to-[#e0b847] px-7 py-2 text-[11px] font-semibold tracking-[0.26em] uppercase text-amber-50 shadow-[0_14px_40px_rgba(0,0,0,0.25)]">
-              Meet the author
-            </div>
+           <Link to="/contact">
+  <div className="w-55 flex justify-center items-center rounded-full bg-gradient-to-r from-[#b88617] via-[#c8941f] to-[#e0b847] px-7 py-3 text-[11px] font-semibold tracking-[0.26em] uppercase text-amber-50 shadow-[0_14px_40px_rgba(0,0,0,0.25)] cursor-pointer">
+    Meet the author
+  </div>
+</Link>
 
             {/* Name */}
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight text-[#111827]">

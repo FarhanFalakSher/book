@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+
 import "./App.css";
 import Navbar from "./pages/Navbar";
 import Home from "./pages/Home";

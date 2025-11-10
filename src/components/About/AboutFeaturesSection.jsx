@@ -6,7 +6,7 @@ const AboutFeaturesSection = () => {
       id="about-features"
       className="w-full bg-gradient-to-b from-white via-[#fdf7f0] to-[#f7f2ea] text-slate-900"
     >
-      <div className="max-w-6xl mx-auto px-4 py-16 md:py-20">
+      <div className="max-w-6xl mx-auto px-4 py-12 md:py-20">
         {/* HEADER */}
         <div className="max-w-3xl mx-auto text-center space-y-4">
           <div className="inline-flex items-center gap-2 px-5 py-1.5 rounded-full bg-[#f7f2ea] border border-orange-200 shadow-[0_8px_24px_rgba(15,23,42,0.06)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_14px_36px_rgba(15,23,42,0.12)]">

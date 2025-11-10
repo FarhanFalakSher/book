@@ -30,7 +30,7 @@ const AuthorFeaturedBooksSection = () => {
       id="books"
       className="w-full bg-gradient-to-b from-[#fef9f4] via-[#fbf2e3] to-[#f4e6d4] text-slate-900 py-14 sm:py-18 md:py-24"
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* HEADER */}
         <header
           className="mb-10 sm:mb-12 space-y-4 max-w-4xl mx-auto lg:mx-0 text-center lg:text-left"

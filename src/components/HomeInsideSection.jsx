@@ -89,7 +89,7 @@ const HomeInsideSection = () => {
 
               <div className="relative aspect-[4/3] w-full overflow-hidden">
                 <img
-                  src="https://i.pinimg.com/1200x/0b/3f/f8/0b3ff803af0926657f2c6a7cee2ce4ba.jpg"
+                  src="https://www.wildlifeguardian.co.uk/assets/images/hd-beagles-hounds.webp"
                   alt="Dog resting calmly with a child"
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />

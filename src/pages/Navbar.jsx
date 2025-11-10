@@ -42,15 +42,14 @@ const Navbar = () => {
               {/* Beautiful Book Icon */}
               <div className="relative">
                 <div className="w-12 h-12 bg-gradient-to-br from-amber-500 via-amber-600 to-amber-700 rounded-xl flex items-center justify-center shadow-lg shadow-amber-500/25 group-hover:shadow-amber-500/40 transition-all duration-300">
-                  <svg 
-                    className="w-6 h-6 text-white" 
-                    fill="currentColor" 
+                  <svg
+                    className="w-6 h-6 text-white"
+                    fill="currentColor"
                     viewBox="0 0 24 24"
                   >
-                    <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20M9 10h6v2H9v-2z"/>
+                    <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20M9 10h6v2H9v-2z" />
                   </svg>
                 </div>
-                {/* Subtle Glow Effect */}
                 <div className="absolute -inset-1 bg-amber-400/10 rounded-xl blur-sm group-hover:blur-md transition-all duration-300 -z-10"></div>
               </div>
 
@@ -75,12 +74,8 @@ const Navbar = () => {
                     href={item.href}
                     className="relative px-4 py-2 text-sm font-semibold text-gray-600 hover:text-amber-700 transition-all duration-300 group"
                   >
-                    <span className="relative z-10 tracking-wide">
-                      {item.name}
-                    </span>
-                    {/* Animated Underline */}
+                    <span className="relative z-10 tracking-wide">{item.name}</span>
                     <div className="absolute bottom-0 left-1/2 w-0 h-0.5 bg-gradient-to-r from-amber-500 to-amber-600 rounded-full transition-all duration-300 group-hover:w-4/5 group-hover:left-1/10 transform -translate-x-1/2 group-hover:translate-x-0"></div>
-                    {/* Hover Background */}
                     <div className="absolute inset-0 bg-gradient-to-r from-amber-50 to-amber-100 rounded-lg opacity-0 group-hover:opacity-100 transition-all duration-300 -z-10"></div>
                   </a>
                 </li>
@@ -91,7 +86,6 @@ const Navbar = () => {
           {/* STUNNING CTA BUTTON */}
           <div className="hidden lg:flex items-center flex-shrink-0">
             <div className="relative group">
-              {/* Glow Effect */}
               <div className="absolute -inset-0.5 bg-gradient-to-r from-amber-500 to-amber-600 rounded-xl blur-sm opacity-70 group-hover:opacity-100 group-hover:blur transition-all duration-300"></div>
               <a
                 href="/order"
@@ -115,25 +109,25 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* ENHANCED MOBILE MENU BUTTON */}
+          {/* ENHANCED MOBILE MENU BUTTON - SMALLER */}
           <div className="lg:hidden flex items-center flex-shrink-0">
             <button
-              className="relative w-12 h-12 flex flex-col items-center justify-center group focus:outline-none hover:bg-gray-800 rounded-xl transition-all duration-300 border border-gray-600 hover:border-amber-500"
+              className="relative w-10 h-10 flex flex-col items-center justify-center group focus:outline-none hover:bg-gray-800 rounded-xl transition-all duration-300 border border-gray-600 hover:border-amber-500"
               onClick={() => setMenuOpen(!menuOpen)}
               aria-label="Toggle menu"
             >
               <span
-                className={`w-6 h-0.5 bg-gray-400 transition-all duration-300 group-hover:bg-amber-500 ${
+                className={`w-5 h-0.5 bg-gray-400 transition-all duration-300 group-hover:bg-amber-500 ${
                   menuOpen ? "rotate-45 translate-y-1.5 bg-amber-500" : "-translate-y-1"
                 }`}
               ></span>
               <span
-                className={`w-6 h-0.5 bg-gray-400 transition-all duration-300 mt-1.5 group-hover:bg-amber-500 ${
+                className={`w-5 h-0.5 bg-gray-400 transition-all duration-300 mt-1.5 group-hover:bg-amber-500 ${
                   menuOpen ? "opacity-0 scale-0" : "opacity-100 scale-100"
                 }`}
               ></span>
               <span
-                className={`w-6 h-0.5 bg-gray-400 transition-all duration-300 mt-1.5 group-hover:bg-amber-500 ${
+                className={`w-5 h-0.5 bg-gray-400 transition-all duration-300 mt-1.5 group-hover:bg-amber-500 ${
                   menuOpen ? "-rotate-45 -translate-y-1.5 bg-amber-500" : "translate-y-1"
                 }`}
               ></span>
@@ -185,7 +179,7 @@ const Navbar = () => {
                 </li>
               ))}
 
-              {/* GET THE BOOK BUTTON - NOW VISIBLE */}
+              {/* GET THE BOOK BUTTON */}
               <li className="mt-3 pt-3 border-t border-gray-700">
                 <a
                   href="/order"
@@ -199,7 +193,7 @@ const Navbar = () => {
                 </a>
               </li>
 
-              {/* FOOTER SECTION */}
+              {/* FOOTER */}
               <li className="mt-4 pt-3 border-t border-gray-700">
                 <div className="px-2 py-2">
                   <p className="text-xs text-gray-500 text-center">

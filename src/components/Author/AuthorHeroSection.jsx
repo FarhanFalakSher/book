@@ -4,10 +4,10 @@ const AuthorHeroSection = () => {
   return (
     <section
       id="author-hero"
-      className="relative w-full overflow-hidden text-white min-h-[80vh] flex items-center"
+      className="relative w-full overflow-hidden text-white min-h-[80vh] flex items-center "
     >
       {/* ===== BACKGROUND ===== */}
-      <div className="absolute inset-0 -z-10">
+      <div className="absolute inset-0 -z-10 ">
         <img
           src="https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg?auto=compress&cs=tinysrgb&w=1600"
           alt="Author workspace with open book"
@@ -23,7 +23,7 @@ const AuthorHeroSection = () => {
       <div className="pointer-events-none absolute left-1/2 bottom-1/3 h-2 w-2 rounded-full bg-yellow-500/70 blur-[2px]" />
 
       {/* ===== CONTENT ===== */}
-      <div className="relative w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-24 md:py-28 flex items-center">
+<div className="relative w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-30 sm:pt-24 md:pt-28 pb-20 flex items-center">
         <div
           className="w-full text-center lg:text-left flex flex-col items-center lg:items-start space-y-6"
           data-aos="fade-up"

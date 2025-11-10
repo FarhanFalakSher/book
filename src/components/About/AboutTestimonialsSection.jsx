@@ -6,7 +6,7 @@ const AboutTestimonialsSection = () => {
       id="testimonials"
       className="w-full bg-[#0b0b10] text-white"
     >
-      <div className="max-w-6xl mx-auto px-4 py-16 md:py-20">
+      <div className="max-w-6xl mx-auto px-4 py-12 md:py-20">
         {/* HEADER */}
         <div className="max-w-3xl mx-auto text-center space-y-4">
           <div className="inline-flex items-center gap-2 px-5 py-1.5 rounded-full bg-black/70 border border-orange-400/60 shadow-[0_14px_40px_rgba(0,0,0,0.7)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_20px_60px_rgba(0,0,0,0.9)]">

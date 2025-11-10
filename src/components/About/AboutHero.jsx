@@ -22,7 +22,7 @@ const AboutHeroSection = () => {
       <div className="absolute -bottom-32 -right-20 h-72 w-72 rounded-full bg-orange-400/25 blur-3xl" />
 
       {/* CONTENT */}
-      <div className="relative max-w-6xl mx-auto px-4 py-20 sm:py-24 md:py-28 lg:py-32 min-h-[70vh] flex items-center">
+      <div className="relative max-w-7xl mx-auto px-4 py-20 pt-28 sm:pt-24 md:pt-28 sm:py-24 md:py-28 lg:py-32 min-h-[70vh] flex items-center">
         <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] items-center w-full">
           {/* LEFT: MAIN TEXT */}
           <div className="space-y-6 text-center lg:text-left">

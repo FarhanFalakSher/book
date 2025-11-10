@@ -6,17 +6,15 @@ const AboutSection = () => {
       id="about"
       className="w-full bg-[#faf5ee] text-[#0f172a] border-t border-[#f1e4d6]"
     >
-      <div className="max-w-6xl mx-auto px-4 py-16 md:py-24">
-        {/* main 2-column grid */}
-        <div className="grid gap-12 lg:gap-16 lg:grid-cols-2 items-start lg:items-center">
-          {/* LEFT COLUMN – TEXT */}
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 lg:py-24">
+        {/* main grid */}
+        <div className="grid gap-12 lg:gap-16 md:grid-cols-1 lg:grid-cols-2 items-start lg:items-center">
+          {/* LEFT COLUMN */}
           <div className="space-y-7">
-            {/* Label pill */}
             <div className="inline-flex items-center px-4 py-1 rounded-full bg-[#fff4cf] border border-[#facc6b] text-[11px] font-semibold tracking-[0.16em] uppercase text-[#92400e]">
               Featured Publication
             </div>
 
-            {/* Heading */}
             <div>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight text-[#020617]">
                 About the <span className="text-[#f59e0b]">Book</span>
@@ -24,8 +22,7 @@ const AboutSection = () => {
               <div className="mt-3 h-1 w-20 rounded-full bg-[#f59e0b]" />
             </div>
 
-            {/* Main copy */}
-            <div className="space-y-3 text-sm sm:text-base md:text-lg leading-relaxed text-[#111827]">
+            <div className="space-y-3 text-base md:text-lg leading-relaxed text-[#111827]">
               <p>
                 <span className="font-semibold">Strong with Hearts and Hounds</span> is a
                 seminal work that examines the profound interspecies connection
@@ -36,7 +33,6 @@ const AboutSection = () => {
               </p>
             </div>
 
-            {/* Highlighted quote */}
             <div className="rounded-2xl bg-[#fff9e6] border border-[#fde68a] border-l-4 border-l-[#f59e0b] px-5 py-4 md:px-6 md:py-5 shadow-[0_24px_60px_rgba(248,187,97,0.35)]">
               <p className="text-sm sm:text-base md:text-lg leading-relaxed text-[#92400e] italic">
                 Through compelling case studies and reflective analysis,&nbsp;
@@ -48,7 +44,6 @@ const AboutSection = () => {
               </p>
             </div>
 
-            {/* Bullets */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-3 text-sm sm:text-base text-[#111827] pt-1">
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">
@@ -72,7 +67,6 @@ const AboutSection = () => {
               </ul>
             </div>
 
-            {/* CTA */}
             <div className="pt-2">
               <button className="inline-flex items-center px-8 py-3.5 rounded-full bg-[#f59e0b] text-white text-sm sm:text-base font-semibold shadow-[0_22px_55px_rgba(248,187,97,0.7)] hover:bg-[#ea8a05] transition-colors duration-200">
                 Get Started
@@ -81,27 +75,23 @@ const AboutSection = () => {
             </div>
           </div>
 
-          {/* RIGHT COLUMN – IMAGE COLLAGE */}
-          <div className="relative flex justify-end items-start">
-            {/* Collage wrapper – no fixed height now */}
-            <div className="relative grid grid-cols-2 gap-5 md:gap-6 max-w-md w-full">
-              {/* LEFT: Tall main card (book cover) */}
-              <div className="relative row-span-2 rounded-3xl overflow-hidden bg-black shadow-[0_26px_70px_rgba(15,23,42,0.55)] h-[480px]">
+          {/* RIGHT COLUMN – IMAGES */}
+          <div className="relative flex justify-center lg:justify-end items-start mt-6 md:mt-12 lg:mt-0">
+            <div className="relative grid grid-cols-2 gap-4 sm:gap-6 max-w-sm sm:max-w-md w-full ">
+              <div className="relative row-span-2 rounded-3xl overflow-hidden bg-black shadow-[0_26px_70px_rgba(15,23,42,0.55)] h-[360px] sm:h-[420px] md:h-[460px] transition-all duration-300 hover:-translate-y-2">
                 <img
                   src="https://i.pinimg.com/1200x/bc/1c/58/bc1c588d25f51fc160bd4a82aec5c457.jpg"
                   alt="Book on a shelf"
                   className="h-full w-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent" />
-                <div className="absolute left-5 bottom-5">
+                <div className="absolute left-4 bottom-4">
                   <p className="text-sm font-semibold text-white">Book Cover</p>
                 </div>
               </div>
 
-              {/* RIGHT: two stacked cards */}
-              <div className="grid grid-rows-2 gap-5 md:gap-6">
-                {/* Top small card with badge */}
-                <div className="relative rounded-3xl overflow-hidden bg-black shadow-[0_20px_55px_rgba(15,23,42,0.5)] h-[230px]">
+              <div className="grid grid-rows-2 gap-4 sm:gap-6">
+                <div className="relative rounded-3xl overflow-hidden bg-black shadow-[0_20px_55px_rgba(15,23,42,0.5)] h-[170px] sm:h-[210px] transition-all duration-300 hover:-translate-y-2">
                   <img
                     src="https://hips.hearstapps.com/hmg-prod/images/hound-dog-breeds-667ed4507b486.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*"
                     alt="Woman hugging her dog"
@@ -113,17 +103,12 @@ const AboutSection = () => {
                       Readers &amp; their dogs
                     </p>
                   </div>
-
-                  {/* Bestseller badge */}
                   <div className="absolute -top-3 right-4">
-                    <span className="inline-flex items-center rounded-full bg-[#f59e0b] text-white text-[11px] font-semibold px-4 py-1.5 shadow-[0_14px_32px_rgba(248,187,97,0.75)]">
-                      Bestseller
-                    </span>
+                   
                   </div>
                 </div>
 
-                {/* Bottom small card */}
-                <div className="relative rounded-3xl overflow-hidden bg-black shadow-[0_20px_55px_rgba(15,23,42,0.5)] h-[230px]">
+                <div className="relative rounded-3xl overflow-hidden bg-black shadow-[0_20px_55px_rgba(15,23,42,0.5)] h-[170px] sm:h-[210px] transition-all duration-300 hover:-translate-y-2">
                   <img
                     src="https://images.pexels.com/photos/1390784/pexels-photo-1390784.jpeg?auto=compress&cs=tinysrgb&w=1200"
                     alt="Dog with glasses reading a book"
