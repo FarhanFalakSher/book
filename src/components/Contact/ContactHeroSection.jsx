@@ -6,14 +6,14 @@ const ContactHeroSection = () => {
       id="contact-hero"
       className="relative w-full min-h-[85vh] sm:min-h-[80vh] text-white flex items-center justify-center overflow-hidden"
     >
-      {/* ===== BACKGROUND IMAGE ===== */}
+      
       <div className="absolute inset-0 -z-10">
         <img
           src="https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg?auto=compress&cs=tinysrgb&w=1600"
           alt="Stack of books on wooden table"
           className="h-full w-full object-cover"
         />
-        {/* Overlay gradient for depth */}
+      
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/70 to-black/85" />
       </div>
 
