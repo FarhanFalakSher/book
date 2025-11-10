@@ -1,10 +1,10 @@
 import React from 'react'
-import ThemeInsightsHero from '../components/Theme/ThemeInsightsHero'
-import ThemeInsightsOverviewSection from '../components/Theme/ThemeInsightsOverviewSection'
-import ThemeTherapyEducationSection from '../components/Theme/ThemeTherapyEducationSection'
-import ThemeRealStoriesSection from '../components/Theme/ThemeRealStoriesSection'
-import ThemePracticalToolsSection from '../components/Theme/ThemePracticalToolsSection'
-import ThemeAboutAuthorSection from '../components/Theme/ThemeAboutAuthorSection'
+import ThemeInsightsHero from '../components/theme/ThemeInsightsHero'
+import ThemeInsightsOverviewSection from '../components/theme/ThemeInsightsOverviewSection'
+import ThemeTherapyEducationSection from '../components/theme/ThemeTherapyEducationSection'
+import ThemeRealStoriesSection from '../components/theme/ThemeRealStoriesSection'
+import ThemePracticalToolsSection from '../components/theme/ThemePracticalToolsSection'
+import ThemeAboutAuthorSection from '../components/theme/ThemeAboutAuthorSection'
 import Footer from './Footer'
 
 const Theme = () => {

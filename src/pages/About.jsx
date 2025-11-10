@@ -1,9 +1,9 @@
 import React from 'react'
-import AboutHeroSection from '../components/About/AboutHero'
-import AboutStorySection from '../components/About/AboutStorySection'
-import AboutFeaturesSection from '../components/About/AboutFeaturesSection'
-import AboutTestimonialsSection from '../components/About/AboutTestimonialsSection'
-import ApproachAndCtaSection from '../components/About/ApproachAndCtaSection'
+import AboutHeroSection from '../components/about/AboutHero'
+import AboutStorySection from '../components/about/AboutStorySection'
+import AboutFeaturesSection from '../components/about/AboutFeaturesSection'
+import AboutTestimonialsSection from '../components/about/AboutTestimonialsSection'
+import ApproachAndCtaSection from '../components/about/ApproachAndCtaSection'
 import Footer from './Footer'
 
 const About = () => {

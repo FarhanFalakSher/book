@@ -1,8 +1,8 @@
 import React from 'react'
-import AuthorHeroSection from '../components/Author/AuthorHeroSection'
-import AuthorStorySection from '../components/Author/AuthorStorySection'
-import AuthorApproachSection from '../components/Author/AuthorApprochSection'
-import AuthorInPracticeSection from '../components/Author/AuthorInPracticeSection'
+import AuthorHeroSection from '../components/author/AuthorHeroSection'
+import AuthorStorySection from '../components/author/AuthorStorySection'
+import AuthorApproachSection from '../components/author/AuthorApprochSection'
+import AuthorInPracticeSection from '../components/author/AuthorInPracticeSection'
 import Footer from './Footer'
 
 const Author = () => {
