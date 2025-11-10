@@ -11,6 +11,7 @@ import Author from "./pages/Author";
 import Theme from "./pages/Theme";
 import Contact from "./pages/Contact";
 import GetTheBookPreOrder from "./pages/GetTheBook";
+import Footer from "./pages/Footer";
 
 function App() {
   // Initialise AOS once
@@ -33,7 +34,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/order" element={<GetTheBookPreOrder />} />
       </Routes>
-      
+      <Footer />
     </>
   );
 }

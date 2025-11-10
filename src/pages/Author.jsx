@@ -1,20 +1,20 @@
-import React from 'react'
-import AuthorHeroSection from '../components/author/AuthorHeroSection'
-import AuthorStorySection from '../components/author/AuthorStorySection'
-import AuthorApproachSection from '../components/author/AuthorApprochSection'
-import AuthorInPracticeSection from '../components/author/AuthorInPracticeSection'
-import Footer from './Footer'
+
+import AuthorMeetSection from "../components/Author/AuthorStorySection";
+import AuthorApproachSection from "../components/Author/AuthorApprochSection";
+import AuthorFeaturedBooksSection from "../components/Author/AuthorInPracticeSection";
+import AuthorHeroSection from "../components/Author/AuthorHeroSection";
+
 
 const Author = () => {
   return (
     <div>
-        <AuthorHeroSection/>
-        <AuthorStorySection/>
-        <AuthorApproachSection/>
-        <AuthorInPracticeSection/>
-        <Footer/>
+      <AuthorHeroSection />
+      <AuthorMeetSection />
+      <AuthorApproachSection />
+      <AuthorFeaturedBooksSection />
+    
     </div>
-  )
-}
+  );
+};
 
-export default Author
+export default Author;
