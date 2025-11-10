@@ -179,7 +179,7 @@ const Navbar = () => {
                 </li>
               ))}
 
-              {/* GET THE BOOK BUTTON */}
+              
               <li className="mt-3 pt-3 border-t border-gray-700">
                 <a
                   href="/order"
@@ -193,7 +193,7 @@ const Navbar = () => {
                 </a>
               </li>
 
-              {/* FOOTER */}
+              
               <li className="mt-4 pt-3 border-t border-gray-700">
                 <div className="px-2 py-2">
                   <p className="text-xs text-gray-500 text-center">
