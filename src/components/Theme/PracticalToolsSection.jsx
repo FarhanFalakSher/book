@@ -1,6 +1,6 @@
 import React from "react";
 
-export default PracticalToolsSection = () => {
+const PracticalToolsSection = () => {
   return (
     <section
       id="theme-practical-tools"
@@ -142,3 +142,4 @@ export default PracticalToolsSection = () => {
   );
 };
 
+export default PracticalToolsSection

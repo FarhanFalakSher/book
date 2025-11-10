@@ -1,6 +1,6 @@
 import React from "react";
 
-export default ContactHeroSection = () => {
+const ContactHeroSection = () => {
   return (
     <section
       id="contact-hero"
@@ -65,3 +65,4 @@ export default ContactHeroSection = () => {
   );
 };
 
+export default ContactHeroSection

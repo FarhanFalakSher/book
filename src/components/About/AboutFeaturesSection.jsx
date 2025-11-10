@@ -1,6 +1,6 @@
 import React from "react";
 
-export default AboutFeaturesSection = () => {
+const AboutFeaturesSection = () => {
   return (
     <section
       id="about-features"
@@ -166,4 +166,4 @@ export default AboutFeaturesSection = () => {
   );
 };
 
-
+export default AboutFeaturesSection

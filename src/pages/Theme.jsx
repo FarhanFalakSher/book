@@ -1,11 +1,11 @@
 
 
 import ThemeInsightsHero from "../components/theme/ThemeInsightsHero"
-import InsightsHero from "../components/theme/InsightsHero"
 import TherapyEducationSection from "../components/theme/TherapyEducationSection"
 import ThemeEmotionalConnection from "../components/theme/RealStoriesSection"
 import PracticalToolsSection from "../components/theme/PracticalToolsSection"
 import AboutAuthorSection from "../components/theme/AboutAuthorSection"
+import InsightsOverviewSection from "../components/theme/InsightsOverviewSection"
 
 
 const Theme = () => {
@@ -13,7 +13,7 @@ const Theme = () => {
     <div>
         
         <ThemeInsightsHero/>
-        <InsightsHero/>
+        <InsightsOverviewSection/>
         <TherapyEducationSection/>
         <ThemeEmotionalConnection/>
         <PracticalToolsSection/>

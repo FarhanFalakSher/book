@@ -1,6 +1,6 @@
 import React from "react";
 
-export default ApproachSection = () => {
+const ApproachSection = () => {
   return (
     <section id="approach" className="w-full bg-[#fdf7ea] text-slate-900">
       <div className="max-w-6xl mx-auto  px-4 py-12 md:py-20 space-y-16">
@@ -121,3 +121,4 @@ export default ApproachSection = () => {
   );
 };
 
+export default ApproachSection

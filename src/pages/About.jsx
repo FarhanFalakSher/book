@@ -1,7 +1,7 @@
 import React from 'react'
 
 import AboutHeroSection from '../components/about/AboutHero'
-import AboutStorySection from '../components/about/AboutStorySection'
+import StorySection from '../components/about/StorySection'
 import AboutFeaturesSection from '../components/about/AboutFeaturesSection'
 import TestimonialsSection from '../components/about/TestimonialsSection'
 import ApproachSection from '../components/about/ApproachSection'
@@ -12,7 +12,7 @@ const About = () => {
     <div>
    
         <AboutHeroSection/>
-        <AboutStorySection/>
+        <StorySection/>
         <AboutFeaturesSection/>
         <TestimonialsSection/>
         <ApproachSection/>
