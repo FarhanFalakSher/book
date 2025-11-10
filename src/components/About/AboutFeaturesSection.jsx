@@ -32,9 +32,7 @@ const AboutFeaturesSection = () => {
 
         {/* FEATURE GRID */}
         <div className="mt-12 grid gap-6 md:gap-7 md:grid-cols-2">
-          {/* Card 1 – Therapists & practitioners */}
           <div className="group relative overflow-hidden rounded-3xl bg-[#f9f4ec] border border-orange-100 px-5 py-5 sm:px-6 sm:py-6 shadow-[0_10px_28px_rgba(15,23,42,0.06)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_55px_rgba(15,23,42,0.16)] hover:border-orange-300">
-            {/* top accent glow */}
             <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-orange-500 via-orange-300 to-orange-200 opacity-70" />
             <div className="absolute -right-8 -bottom-10 h-24 w-24 rounded-full bg-orange-500/10 blur-2xl pointer-events-none" />
 
