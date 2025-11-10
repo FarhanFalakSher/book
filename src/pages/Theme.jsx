@@ -5,7 +5,7 @@ import ThemeTherapyEducationSection from '../components/theme/ThemeTherapyEducat
 import ThemeRealStoriesSection from '../components/theme/ThemeRealStoriesSection'
 import ThemePracticalToolsSection from '../components/theme/ThemePracticalToolsSection'
 import ThemeAboutAuthorSection from '../components/theme/ThemeAboutAuthorSection'
-import Footer from './Footer'
+// import Footer from './Footer'
 
 const Theme = () => {
   return (
@@ -16,7 +16,7 @@ const Theme = () => {
         <ThemeRealStoriesSection/>
         <ThemePracticalToolsSection/>
         <ThemeAboutAuthorSection/>
-        <Footer/>
+        {/* <Footer/> */}
     </div>
   )
 }

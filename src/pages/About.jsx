@@ -4,7 +4,7 @@ import AboutStorySection from '../components/about/AboutStorySection'
 import AboutFeaturesSection from '../components/about/AboutFeaturesSection'
 import AboutTestimonialsSection from '../components/about/AboutTestimonialsSection'
 import ApproachAndCtaSection from '../components/about/ApproachAndCtaSection'
-import Footer from './Footer'
+// import Footer from './Footer'
 
 const About = () => {
   return (
@@ -14,7 +14,7 @@ const About = () => {
         <AboutFeaturesSection/>
         <AboutTestimonialsSection/>
         <ApproachAndCtaSection/>
-        <Footer/>
+        {/* <Footer/> */}
     </div>
   )
 }
