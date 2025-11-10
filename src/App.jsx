@@ -23,9 +23,10 @@ function App() {
   }, []);
 
   return (
-    <Router>
-      <Navbar />
+    
+      
       <Routes>
+        <Navbar />
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/author" element={<Author />} />
@@ -33,7 +34,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/order" element={<GetTheBookPreOrder />} />
       </Routes>
-    </Router>
+    
   );
 }
 
