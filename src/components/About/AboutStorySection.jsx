@@ -1,6 +1,6 @@
 import React from "react";
 
-const AboutStorySection = () => {
+export default AboutStorySection = () => {
   return (
     <section
       id="about-story"
@@ -137,4 +137,4 @@ const AboutStorySection = () => {
   );
 };
 
-export default AboutStorySection;
+

@@ -1,6 +1,6 @@
 import React from "react";
 
-const ThemeTherapyEducationSection = () => {
+export default TherapyEducationSection = () => {
   return (
     <section
       id="theme-therapy-education"
@@ -124,4 +124,3 @@ const ThemeTherapyEducationSection = () => {
   );
 };
 
-export default ThemeTherapyEducationSection;

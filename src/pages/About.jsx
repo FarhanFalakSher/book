@@ -1,20 +1,22 @@
 import React from 'react'
+
 import AboutHeroSection from '../components/about/AboutHero'
 import AboutStorySection from '../components/about/AboutStorySection'
 import AboutFeaturesSection from '../components/about/AboutFeaturesSection'
-import AboutTestimonialsSection from '../components/about/AboutTestimonialsSection'
-import ApproachAndCtaSection from '../components/about/ApproachAndCtaSection'
-// import Footer from './Footer'
+import TestimonialsSection from '../components/about/TestimonialsSection'
+import ApproachSection from '../components/about/ApproachSection'
+
 
 const About = () => {
   return (
     <div>
+   
         <AboutHeroSection/>
         <AboutStorySection/>
         <AboutFeaturesSection/>
-        <AboutTestimonialsSection/>
-        <ApproachAndCtaSection/>
-        {/* <Footer/> */}
+        <TestimonialsSection/>
+        <ApproachSection/>
+
     </div>
   )
 }

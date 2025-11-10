@@ -1,22 +1,25 @@
-import React from 'react'
-import ThemeInsightsHero from '../components/theme/ThemeInsightsHero'
-import ThemeInsightsOverviewSection from '../components/theme/ThemeInsightsOverviewSection'
-import ThemeTherapyEducationSection from '../components/theme/ThemeTherapyEducationSection'
-import ThemeRealStoriesSection from '../components/theme/ThemeRealStoriesSection'
-import ThemePracticalToolsSection from '../components/theme/ThemePracticalToolsSection'
-import ThemeAboutAuthorSection from '../components/theme/ThemeAboutAuthorSection'
-// import Footer from './Footer'
+
+
+import ThemeInsightsHero from "../components/theme/ThemeInsightsHero"
+import InsightsHero from "../components/theme/InsightsHero"
+import TherapyEducationSection from "../components/theme/TherapyEducationSection"
+import ThemeEmotionalConnection from "../components/theme/RealStoriesSection"
+import PracticalToolsSection from "../components/theme/PracticalToolsSection"
+import AboutAuthorSection from "../components/theme/AboutAuthorSection"
+
 
 const Theme = () => {
   return (
     <div>
+        
         <ThemeInsightsHero/>
-        <ThemeInsightsOverviewSection/>
-        <ThemeTherapyEducationSection/>
-        <ThemeRealStoriesSection/>
-        <ThemePracticalToolsSection/>
-        <ThemeAboutAuthorSection/>
-        {/* <Footer/> */}
+        <InsightsHero/>
+        <TherapyEducationSection/>
+        <ThemeEmotionalConnection/>
+        <PracticalToolsSection/>
+        <AboutAuthorSection/>
+
+
     </div>
   )
 }

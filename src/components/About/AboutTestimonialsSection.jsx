@@ -1,6 +1,6 @@
 import React from "react";
 
-const AboutTestimonialsSection = () => {
+export default TestimonialsSection = () => {
   return (
     <section
       id="testimonials"
@@ -142,4 +142,4 @@ const AboutTestimonialsSection = () => {
   );
 };
 
-export default AboutTestimonialsSection;
+

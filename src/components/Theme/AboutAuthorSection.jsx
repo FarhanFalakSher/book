@@ -1,6 +1,6 @@
 import React from "react";
 
-const ThemeAboutAuthorSection = () => {
+export default AboutAuthorSection = () => {
   return (
     <section
       id="theme-about-author"
@@ -56,4 +56,3 @@ const ThemeAboutAuthorSection = () => {
   );
 };
 
-export default ThemeAboutAuthorSection;
