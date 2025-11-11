@@ -110,7 +110,6 @@ const ApproachSection = () => {
             </div>
           </div>
 
-          {/* Fine print line */}
           <div className="mt-6 pt-4 border-t border-orange-300/60 text-[11px] sm:text-xs text-orange-50/80 text-center">
             Available in hardcover, paperback &amp; ebook · Worldwide shipping
             options · 30-day returns on print copies

@@ -129,7 +129,6 @@ const TestimonialsSection = () => {
           </div>
         </div>
 
-        {/* FOOTER LINE */}
         <div className="mt-10 max-w-3xl mx-auto text-center">
           <p className="text-[11px] sm:text-xs text-gray-400">
             These are composite voices based on real roles and settings, shared
