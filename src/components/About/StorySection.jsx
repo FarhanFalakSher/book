@@ -30,17 +30,17 @@ const StorySection = () => {
                 Strong with Hearts and Hounds
               </span>{" "}
               was born out of years of working in places where emotions are big
-              and language can be small: therapy rooms, classrooms, family
-              homes and residential care. In all of those spaces, dogs were not
+              and language can be small: therapy rooms, classrooms, family homes
+              and residential care. In all of those spaces, dogs were not
               “tools”, but steady, feeling companions in the work.
             </p>
 
             <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
               Instead of offering a neat model or protocol, the book slows down
               to notice what is really happening in the room — the tiny shifts
-              when a child relaxes against a dog, when an adult finds words
-              more easily with a warm body at their feet, when a dog quietly
-              shows us a limit that needs respecting.
+              when a child relaxes against a dog, when an adult finds words more
+              easily with a warm body at their feet, when a dog quietly shows us
+              a limit that needs respecting.
             </p>
 
             <div className="grid gap-4 sm:grid-cols-2 pt-2">
@@ -118,16 +118,18 @@ const StorySection = () => {
                   <p className="font-semibold text-slate-900">
                     Care &amp; support
                   </p>
-                  <p>Homes and services for older adults and vulnerable people.</p>
+                  <p>
+                    Homes and services for older adults and vulnerable people.
+                  </p>
                 </div>
               </div>
 
               <div className="mt-4 h-px w-full bg-gradient-to-r from-transparent via-orange-400/70 to-transparent" />
 
               <p className="mt-3 text-[11px] sm:text-xs text-slate-600">
-                This isn’t a dssssspromise that dogs “fix” anything. It’s an invitation
-                to notice how they change the feel of our work, and what we owe
-                them in returnsssss.
+                This isn’t a promise that dogs “fix” anything. It’s an
+                invitation to notice how they change the feel of our work, and
+                what we owe them in returncls.
               </p>
             </div>
           </div>
