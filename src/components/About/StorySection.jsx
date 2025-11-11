@@ -125,9 +125,9 @@ const StorySection = () => {
               <div className="mt-4 h-px w-full bg-gradient-to-r from-transparent via-orange-400/70 to-transparent" />
 
               <p className="mt-3 text-[11px] sm:text-xs text-slate-600">
-                This isn’t a promise that dogs “fix” anything. It’s an invitation
+                This isn’t a dssssspromise that dogs “fix” anything. It’s an invitation
                 to notice how they change the feel of our work, and what we owe
-                them in return.
+                them in returnsssss.
               </p>
             </div>
           </div>
