@@ -94,7 +94,6 @@ const ApproachSection = () => {
             </a>
           </div>
 
-          {/* Benefits row */}
           <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4 text-[11px] sm:text-xs text-orange-50/90">
             <div className="flex items-center gap-1.5">
               <span className="text-lg">✔</span>
