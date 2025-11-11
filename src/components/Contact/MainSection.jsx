@@ -135,7 +135,6 @@ import React from "react";
                   </div>
                 </div>
 
-                {/* Phone */}
                 <div className="space-y-1.5">
                   <label
                     htmlFor="phone"
@@ -153,7 +152,6 @@ import React from "react";
                   </div>
                 </div>
 
-                {/* Project Details */}
                 <div className="space-y-1.5">
                   <label
                     htmlFor="details"
