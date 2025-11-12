@@ -1,19 +1,19 @@
 import React from "react";
-
-import Hero from "../components/about/Hero";
-import StorySection from "../components/about/StorySection";
-import AboutFeatures from "../components/about/AboutFeatures";
-import TestimonialsSection from "../components/about/TestimonialsSection";
-import ApproachSection from "../components/about/ApproachSection";
+import AboutHeroSection from "../components/About/AboutHeroSection";
+import AboutStorySection from "../components/About/AboutStorySection";
+import AboutFeaturesSection from "../components/About/AboutFeaturesSection";
+import AboutTestimonialsSection from "../components/About/AboutTestimonialsSection";
+import ApproachCtaSection from "../components/About/ApproachCtaSection";
 
 const About = () => {
   return (
     <div>
-      <Hero />
-      <StorySection />
-      <AboutFeatures />
-      <TestimonialsSection />
-      <ApproachSection />
+   
+      <AboutHeroSection/>
+      <AboutStorySection/>
+      <AboutFeaturesSection/>
+      <AboutTestimonialsSection/>
+      <ApproachCtaSection/>
     </div>
   );
 };
