@@ -1,6 +1,6 @@
 import React from "react";
 
- const MainSection = () => {
+ const ContactMain = () => {
   return (
     <section
       id="contact-main"
@@ -190,4 +190,4 @@ import React from "react";
   );
 };
 
-export default MainSection 
+export default ContactMain;

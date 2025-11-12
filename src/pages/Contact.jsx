@@ -1,15 +1,15 @@
 import React from 'react'
-import MainSection from '../components/contact/MainSection'
 import ContactHero from '../components/contact/ContactHero'
+import ContactMain from '../components/contact/ContactMain';
 
 
 const Contact = () => {
   return (
     <div>
       <ContactHero/>
-       <MainSection/>
+      <ContactMain/>
     </div>
   )
 }
 
-export default Contact
+export default Contact;
