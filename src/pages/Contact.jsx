@@ -1,13 +1,13 @@
 import React from 'react'
-import ContactHero from '../components/contact/ContactHero'
-import ContactMain from '../components/contact/ContactMain';
+import ContactHeroSection from '../components/Contact/ContactHeroSection';
+import ContactMainSection from '../components/Contact/ContactMainSection';
 
 
 const Contact = () => {
   return (
     <div>
-      <ContactHero/>
-      <ContactMain/>
+      <ContactHeroSection/>
+      <ContactMainSection/>
     </div>
   )
 }
