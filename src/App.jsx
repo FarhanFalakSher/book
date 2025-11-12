@@ -6,10 +6,10 @@ import "aos/dist/aos.css";
 import "./App.css";
 import Navbar from "./pages/Navbar";
 import Home from "./pages/Home";
-import About from "./pages/About";
+// import About from "./pages/About";
 import Author from "./pages/Author";
 import Theme from "./pages/Theme";
-import Contact from "./pages/Contact";
+// import Contact from "./pages/Contact";
 import GetTheBookPreOrder from "./pages/GetTheBook";
 import Footer from "./pages/Footer";
 
@@ -28,14 +28,15 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        {/* <Route path="/about" element={<About />} /> */}
         <Route path="/author" element={<Author />} />
         <Route path="/theme" element={<Theme />} />
-        <Route path="/contact" element={<Contact />} />
+        {/* <Route path="/contact" element={<Contact />} /> */}
         <Route path="/order" element={<GetTheBookPreOrder />} />
       </Routes>
       <Footer />
     </>
+    
   );
 }
 
