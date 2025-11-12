@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const AboutHeroSection = () => {
+const AboutHero = () => {
   return (
     <section
       id="about"
@@ -131,4 +131,4 @@ const AboutHeroSection = () => {
   );
 };
 
-export default AboutHeroSection;
+export default AboutHero;
