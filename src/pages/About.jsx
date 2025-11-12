@@ -2,7 +2,7 @@ import React from "react";
 
 import AboutHero from "../components/about/AboutHero";
 import StorySection from "../components/about/StorySection";
-import AboutFeaturesSection from "../components/about/AboutFeaturesSection";
+import AboutFeatures from "../components/about/AboutFeatures";
 import TestimonialsSection from "../components/about/TestimonialsSection";
 import ApproachSection from "../components/about/ApproachSection";
 
@@ -11,7 +11,7 @@ const About = () => {
     <div>
       <AboutHero />
       <StorySection />
-      <AboutFeaturesSection />
+      <AboutFeatures />
       <TestimonialsSection />
       <ApproachSection />
     </div>
