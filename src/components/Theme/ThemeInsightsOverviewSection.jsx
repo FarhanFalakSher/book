@@ -1,6 +1,6 @@
 import React from "react";
 
-const InsightsOverviewSection = () => {
+const ThemeInsightsOverviewSection = () => {
   return (
     <section
       id="theme-insights-overview"
@@ -170,4 +170,4 @@ const InsightsOverviewSection = () => {
   );
 };
 
-export default InsightsOverviewSection
+export default ThemeInsightsOverviewSection;

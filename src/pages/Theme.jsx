@@ -1,27 +1,21 @@
-
-
-import ThemeInsightsHero from "../components/theme/ThemeInsightsHero"
-import TherapyEducationSection from "../components/theme/TherapyEducationSection"
-import ThemeEmotionalConnection from "../components/theme/RealStoriesSection"
-import PracticalToolsSection from "../components/theme/PracticalToolsSection"
-import AboutAuthorSection from "../components/theme/AboutAuthorSection"
-import InsightsOverviewSection from "../components/theme/InsightsOverviewSection"
-
+import AboutAuthorSections from "../components/Theme/AboutAuthorSections";
+import ThemeEmotionalConnections from "../components/Theme/ThemeEmotionalConnections";
+import ThemeInsightsHeroSection from "../components/Theme/ThemeInsightsHeroSection";
+import ThemeInsightsOverviewSection from "../components/Theme/ThemeInsightsOverviewSection";
+import ThemePracticalToolsSection from "../components/Theme/ThemePracticalToolsSection";
+import TherapyEducationSections from "../components/Theme/TherapyEducationSections";
 
 const Theme = () => {
   return (
     <div>
-        
-        <ThemeInsightsHero/>
-        <InsightsOverviewSection/>
-        <TherapyEducationSection/>
-        <ThemeEmotionalConnection/>
-        <PracticalToolsSection/>
-        <AboutAuthorSection/>
-
-
+      <ThemeInsightsHeroSection />
+      <ThemeInsightsOverviewSection />
+      <TherapyEducationSections />
+      <ThemeEmotionalConnections />
+      <ThemePracticalToolsSection />
+      <AboutAuthorSections />
     </div>
-  )
-}
+  );
+};
 
-export default Theme
+export default Theme;

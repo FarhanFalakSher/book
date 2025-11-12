@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const InsightsHero = () => {
+const ThemeInsightsHeroSection = () => {
   return (
     <section
       id="theme-insights-hero"
@@ -72,4 +72,4 @@ const InsightsHero = () => {
   );
 };
 
-export default InsightsHero
+export default ThemeInsightsHeroSection;

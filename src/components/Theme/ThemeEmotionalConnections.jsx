@@ -1,6 +1,6 @@
 import React from "react";
 
-const ThemeEmotionalConnection = () => {
+const ThemeEmotionalConnections = () => {
   return (
     <section
       id="theme-emotional-connection"
@@ -74,4 +74,4 @@ const ThemeEmotionalConnection = () => {
   );
 };
 
-export default ThemeEmotionalConnection
+export default ThemeEmotionalConnections;
