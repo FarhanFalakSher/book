@@ -6,8 +6,7 @@ import MainSection from '../components/contact/MainSection'
 const Contact = () => {
   return (
     <div>
-       
-        <ContactHeroSection/>
+       <ContactHeroSection/>
        <MainSection/>
     </div>
   )
