@@ -1,12 +1,12 @@
 import React from 'react'
-import Hero from '../components/contact/Hero'
 import MainSection from '../components/contact/MainSection'
+import ContactHero from '../components/contact/ContactHero'
 
 
 const Contact = () => {
   return (
     <div>
-       <Hero/>
+      <ContactHero/>
        <MainSection/>
     </div>
   )
